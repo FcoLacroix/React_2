@@ -1,0 +1,130 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Estilos para la card */
+.card {
+  background-color: #e9ead2; 
+  padding: 10px; 
+  border-radius: 10px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh; 
+}
+
+
+.card h1 {
+  color: #000;
+}
+
+.card p {
+  color: #000; 
+}
+
+/* Estilos para el botón verde */
+.card button[type="submit"] {
+  background-color: #025202; 
+  color: #fff; 
+}
+
+.card button[type="submit"]:hover {
+  background-color: #025202; 
+}
+
+.card form {
+  text-align: center;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.facebook {
+  color: #1877f2; /* Color de Facebook */
+}
+
+.github {
+  color: #333; /* Color de GitHub */
+}
+
+.linkedin {
+  color: #0077b5; /* Color de LinkedIn */
+}
+
+/* Estilos para los elementos de entrada en vertical */
+form input {
+  display: block;
+  margin-bottom: 10px; /* Agrega espacio entre los elementos */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto; /* Centra horizontalmente el formulario */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%; 
+  margin: 8px 0; 
+  padding: 8px; 
+}
+
+
+.social-icons-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente los íconos */
+  margin-top: 20px; /* Espacio superior para separarlos de otros elementos */
+}
+
+.social-icon {
+  font-size: 24px; /* Tamaño del ícono */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  margin: 0 10px; /* Espacio horizontal entre los íconos */
+}
+
+.social-icon:hover {
+color: #025202;
+}
+
+
+/* Estilos para el componente Alert */
+.alert {
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el mensaje de éxito */
+.alert-success {
+  background-color: green; /* Fondo verde oscuro */
+}
+
+/* Estilos para el mensaje de error */
+.alert-danger {
+  background-color: red; /* Fondo rojo oscuro */
+}
